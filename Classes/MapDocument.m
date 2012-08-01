@@ -8,7 +8,6 @@
 
 #import "MapDocument.h"
 #import "MapEditorWindowController.h"
-#import "DBUploadWindowController.h"
 #import "MapPropertiesWindowController.h"
 #import "RoomPropertiesWindowController.h"
 #import "RoomDescriptionsWindowController.h"
@@ -110,13 +109,6 @@
 - (IBAction)displayItemsWindow:(id)sender
 {
 	[_itemsWindow showWindow:self];
-}
-
-- (IBAction)displayUploadMapWindow:(id)sender
-{
-	NSWindowController *uploaderWindow = [[DBUploadWindowController alloc] initWithMap:map];
-		
-	[[NSApplication sharedApplication] runModalForWindow:[uploaderWindow window]];
 }
 
 @end

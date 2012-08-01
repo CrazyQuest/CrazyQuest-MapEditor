@@ -56,7 +56,6 @@
 		BFE25B2010E22BDC00EE7C48 /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE25B1C10E22BDC00EE7C48 /* Map.m */; };
 		BFE25B2110E22BDC00EE7C48 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE25B1E10E22BDC00EE7C48 /* Room.m */; };
 		BFE25B3010E22CC100EE7C48 /* DBUploadWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BFE25B2F10E22CC100EE7C48 /* DBUploadWindow.xib */; };
-		BFE25B3410E2302B00EE7C48 /* DBUploadWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE25B3310E2302B00EE7C48 /* DBUploadWindowController.m */; };
 		BFE3AB1110DDC948004FF12A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BFE3AB1010DDC948004FF12A /* libxml2.dylib */; };
 		BFE3AB2110DDCDCE004FF12A /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE3AB2010DDCDCE004FF12A /* XPathQuery.m */; };
 		BFF75C5B10E8B09C005B17E2 /* RoomPropertiesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF75C5A10E8B09C005B17E2 /* RoomPropertiesWindowController.m */; };
@@ -146,8 +145,6 @@
 		BFE25B1D10E22BDC00EE7C48 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Room.h; path = Classes/Room.h; sourceTree = "<group>"; };
 		BFE25B1E10E22BDC00EE7C48 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Room.m; path = Classes/Room.m; sourceTree = "<group>"; };
 		BFE25B2F10E22CC100EE7C48 /* DBUploadWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DBUploadWindow.xib; path = Resources/DBUploadWindow.xib; sourceTree = "<group>"; };
-		BFE25B3210E2302B00EE7C48 /* DBUploadWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBUploadWindowController.h; path = Classes/DBUploadWindowController.h; sourceTree = "<group>"; };
-		BFE25B3310E2302B00EE7C48 /* DBUploadWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBUploadWindowController.m; path = Classes/DBUploadWindowController.m; sourceTree = "<group>"; };
 		BFE3AB1010DDC948004FF12A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = /usr/lib/libxml2.dylib; sourceTree = "<absolute>"; };
 		BFE3AB1F10DDCDCE004FF12A /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		BFE3AB2010DDCDCE004FF12A /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
@@ -313,8 +310,6 @@
 				BFBE056B138610DB00865037 /* MapDocumentOperations.m */,
 				BF72630210DD14CE0075A4CE /* MapEditorWindowController.h */,
 				BF72630310DD14CE0075A4CE /* MapEditorWindowController.m */,
-				BFE25B3210E2302B00EE7C48 /* DBUploadWindowController.h */,
-				BFE25B3310E2302B00EE7C48 /* DBUploadWindowController.m */,
 				BFA6CF5810EE6588000930D9 /* MapPropertiesWindowController.h */,
 				BFA6CF5710EE6588000930D9 /* MapPropertiesWindowController.m */,
 				BFF75C5910E8B09C005B17E2 /* RoomPropertiesWindowController.h */,
@@ -485,7 +480,6 @@
 				BFE25B1F10E22BDC00EE7C48 /* Connection.m in Sources */,
 				BFE25B2010E22BDC00EE7C48 /* Map.m in Sources */,
 				BFE25B2110E22BDC00EE7C48 /* Room.m in Sources */,
-				BFE25B3410E2302B00EE7C48 /* DBUploadWindowController.m in Sources */,
 				BF26283D10E2A7CF006D3E7D /* PropObj.m in Sources */,
 				BFF75C5B10E8B09C005B17E2 /* RoomPropertiesWindowController.m in Sources */,
 				BFDE544C10E9111200C69FA0 /* NSData+Base64.m in Sources */,

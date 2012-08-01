@@ -21,7 +21,6 @@
 
 @property (readonly, assign) Map *map;
 
-- (void)displayUploadMapWindow:(id)sender;
 - (IBAction)displayMapPropertiesWindow:(id)sender;
 - (IBAction)displayRoomPropertiesWindow:(id)sender;
 - (IBAction)displayRoomDescriptionsWindow:(id)sender;
