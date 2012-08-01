@@ -1,0 +1,33 @@
+//
+// Prefix header for all source files of the 'MapEditor' target in the 'MapEditor' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define ROOMICON_SIDE_LENGTH		20
+#define MAX_MAP_RESOLUTION_X		1000
+#define MAX_MAP_RESOLUTION_Y		1000
+
+#define NOTIFICATION_MAP_CHANGED			@"NotifyMapChanged"
+
+#define NOTIFICATION_MAP_IMAGE_CHANGED		@"NotifyMapImageChanged"
+#define NOTIFICATION_ROOM_ADDED				@"NotifyRoomAdded"
+#define NOTIFICATION_ROOM_REMOVED			@"NotifyRoomRemoved"
+#define NOTIFICATION_ROOM_CHANGED			@"NotifyRoomChanged"
+#define NOTIFICATION_SELECTION_CHANGED		@"NotifyRoomSelected"
+#define NOTIFICATION_ROOM_CONNECTED			@"NotifyRoomConnected"
+#define NOTIFICATION_ROOM_DISCONNECTED		@"NotifyRoomDisconnected"
+#define NOTIFICATION_ROOM_DRAGGING			@"NotifyRoomDragging"
+#define NOTIFICATION_MONSTER_CHANGED		@"NotifyMonsterChanged"
+#define NOTIFICATION_ITEM_CHANGED			@"NotifyItemChanged"
+#define NOTIFICATION_DIALOG_CHANGED			@"NotifyDialogChanged"
+#define NOTIFICATION_SPRITE_ADDED			@"NotifySpriteAdded"
+#define NOTIFICATION_SPRITE_REMOVED			@"NotifySpriteRemoved"
+#define NOTIFICATION_SPRITE_CHANGED			@"NotifySpriteChanged"
+#define NOTIFICATION_SPRITE_DRAGGING		@"NotifySpriteDragging"
+
+#define ALIGNMENT_EVIL		0
+#define ALIGNMENT_NEUTRAL	1
+#define ALIGNMENT_GOOD		2
